@@ -12,9 +12,9 @@ header
 
 header img
 {
-    height: 80px;
+    height: 70px;
 }
-
+ /*nav*/ 
 nav ul
 {
     display: flex;
@@ -27,12 +27,33 @@ nav li
 }
 
 /* main */
+/*trouver votre hébergement*/
 
+/*Hébergements*/
+
+/*Les plus populaires*/
+
+
+/* activités*/
+main section section
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section section div img
+{
+    max-width: 200px;
+    max-height: 200px;
+}
 
 /*footer*/
 footer
 {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
