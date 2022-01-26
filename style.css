@@ -1,0 +1,28 @@
+body
+{
+    margin: 0;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+header img
+{
+    height: 80px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style: none;
+}
+
+nav li
+{
+    margin: 0 20px 0 20px;
+}
+
