@@ -26,7 +26,7 @@ nav li
     margin: 0 20px 0 20px;
 }
 
- main 
+
 /*trouver votre hébergement*/
 
 /*Hébergements*/
@@ -75,12 +75,18 @@ nav li
     box-sizing: border-box; 
 }*/
 
+.hebergements_et_plus_populaires
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
 
 .every-cards
 {  
     display: flex;
     flex-direction: column;
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(236, 236, 236);
     border-radius: 20px;
 }
 
@@ -139,6 +145,27 @@ main section section div img
 footer
 {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*justify-content: space-around;*/
+    background-color: rgb(236, 236, 236);
+}
+
+.a_propos
+{
+    margin-top: 30px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+}
+
+.nos_hebergements
+{
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-bottom: 30px;
+}
+
+.assistance
+{
+    margin-top: 30px;
+    margin-left: 500px;
+    margin-bottom: 30px;
 }
