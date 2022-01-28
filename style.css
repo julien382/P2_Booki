@@ -26,10 +26,95 @@ nav li
     margin: 0 20px 0 20px;
 }
 
-/* main */
+ main 
 /*trouver votre hébergement*/
 
 /*Hébergements*/
+
+/*
+.every-cards
+{  
+    display: flex;
+    flex-direction: column;
+}
+
+.cards
+{
+    flex-direction: row;
+}
+
+.card {
+    width: 40%; 
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 5px 20px #999; 
+    border: 5px solid rgb(255, 0, 0); 
+  }
+
+.card:hover .card-image img {
+    width: 160%;
+}
+
+.card-image {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.card-image img {     
+    width: 150%;
+     
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text {
+    text-align:left; 
+    padding: 0px 10px; 
+    box-sizing: border-box; 
+}*/
+
+
+.every-cards
+{  
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+}
+
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card  /* = article, donc une card */
+{
+    flex: none;
+    width: 250px;
+    margin: 10px;
+    background-color: white;
+    border: 5px solid white;
+    box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-image img
+{
+    height: 100px;
+    max-width: 100%;
+}
+
+
+.card-txt
+{
+    padding: 0px 0px 0px;
+}
+
 
 /*Les plus populaires*/
 
