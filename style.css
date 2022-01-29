@@ -38,50 +38,6 @@ nav li
 /*-- Hébergements --*/
 
 /*
-.every-cards
-{  
-    display: flex;
-    flex-direction: column;
-}
-
-.cards
-{
-    flex-direction: row;
-}
-
-.card {
-    width: 40%; 
-    background-color: white;
-    margin: 10px;
-    box-shadow: 0px 5px 20px #999; 
-    border: 5px solid rgb(255, 0, 0); 
-  }
-
-.card:hover .card-image img {
-    width: 160%;
-}
-
-.card-image {
-    height: 250px;
-    position: relative;
-    overflow: hidden;
-}
-.card-image img {     
-    width: 150%;
-     
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.card-text {
-    text-align:left; 
-    padding: 0px 10px; 
-    box-sizing: border-box; 
-}*/
-
-
 .hebergements_et_plus_populaires
 {
     display: flex;
@@ -107,7 +63,7 @@ nav li
     align-items: stretch;
 }
 
-.card  /* = article, donc une card */
+.card 
 {
     flex: none;
     width: 250px;
@@ -125,12 +81,69 @@ nav li
     max-width: 100%;
 }
 
+*/
 
-.card-txt
+.hebergements_et_plus_populaires
 {
-    padding: 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.every-cards
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card
+{
+    flex: none;
+    width: 370px;
+    height: 300px;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+    border: 7px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-image
+{
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image img
+{
+    width: 100%;
+    /* Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text
+{
+    text-align:left; 
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
 
 /*-- Les plus populaires --*/
 
@@ -162,7 +175,7 @@ nav li
     height: 750px;
     margin: 30px;
     background-color: white;
-    box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 0.4);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
     border-radius: 20px;
     overflow: hidden;
 }
@@ -174,7 +187,7 @@ nav li
     height: 365px;
     margin: 30px;
     background-color: white;
-    box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 0.4);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
     border-radius: 20px;
     overflow: hidden;
 }
