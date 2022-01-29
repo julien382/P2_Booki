@@ -1,3 +1,8 @@
+html
+{
+    font-family: 'Raleway', sans-serif;
+}
+
 body
 {
     margin: 0;
@@ -7,14 +12,15 @@ header
 {
     display: flex;
     justify-content: space-between;
-    align-items: center
 }
 
 header img
 {
-    height: 70px;
+    height: 60px;
+    margin: 30px;
 }
  /*-- nav --*/ 
+
 nav ul
 {
     display: flex;
@@ -23,7 +29,7 @@ nav ul
 
 nav li
 {
-    margin: 0 20px 0 20px;
+    margin: 20px;
 }
 
 
@@ -75,19 +81,23 @@ nav li
     box-sizing: border-box; 
 }*/
 
+
 .hebergements_et_plus_populaires
 {
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 .every-cards
 {  
     display: flex;
     flex-direction: column;
-    background-color: rgb(236, 236, 236);
+    background-color: #F2F2F2;
     border-radius: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
 }
 
 .cards
@@ -101,7 +111,7 @@ nav li
 {
     flex: none;
     width: 250px;
-    margin: 10px;
+    margin: 20px;
     background-color: white;
     border: 5px solid white;
     box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 0.4);
@@ -127,10 +137,16 @@ nav li
 
 /*-- activités --*/
 
+.activités_à_Marseille
+{
+    margin: 60px;
+}
+
 .activités_row
 {
     display:flex;
     flex-direction: row;
+
 }
 
 .activités_column
@@ -144,7 +160,7 @@ nav li
     flex: none;
     width: 375px;
     height: 750px;
-    margin: 10px;
+    margin: 30px;
     background-color: white;
     box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 0.4);
     border-radius: 20px;
@@ -156,7 +172,7 @@ nav li
     flex: none;
     width: 450px;
     height: 365px;
-    margin: 10px;
+    margin: 30px;
     background-color: white;
     box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 0.4);
     border-radius: 20px;
@@ -218,8 +234,7 @@ nav li
 footer
 {
     display: flex;
-    /*justify-content: space-around;*/
-    background-color: rgb(236, 236, 236);
+    background-color: #F2F2F2;
 }
 
 .a_propos
@@ -241,4 +256,5 @@ footer
     margin-top: 30px;
     margin-left: 500px;
     margin-bottom: 30px;
+    margin-right: 500px;
 }
