@@ -88,6 +88,7 @@ nav li
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 30px;
 }
 
 .every-cards
@@ -96,9 +97,8 @@ nav li
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 30px;
+    margin-left: 30px;
+    padding: 40px;
 }
 
 .cards
@@ -147,12 +147,70 @@ nav li
 
 /*-- Les plus populaires --*/
 
+.every-cards-les-plus
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 40px;
+    padding: 38px;
+}
+
+.cards-les-plus
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card-les-plus
+{
+    display: flex;
+    flex-direction: row;
+    /*flex: none;*/
+    width: 460px;
+    height: 200px;
+    margin: 25px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+    border: 7px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-image-les-plus
+{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card-image-les-plus img
+{
+    width: 160%;
+    /* Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card-text-les-plus
+{
+    width: 300px;
+    text-align:left; 
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
 
 /*-- activités --*/
 
 .activités_à_Marseille
 {
-    margin: 60px;
+    margin: 30px;
 }
 
 .activités_row
