@@ -39,28 +39,23 @@ nav li
 {
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
+}
+
+.trouver_votre
+{
     margin: 30px;
 }
+
 /* filtres */ 
 
 .les_filtres
 {
     display: flex;
     align-items: center;
-    margin: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap;
 }
-
-/*.les_filtres
-{
-    display: flex;
-    margin: 30px;
-
-    flex: none;
-    height: 100px;
-    background-color: white;
-    border-radius: 20px;
-    overflow: hidden;
-}*/
 
 .catégorie_filtres
 {
@@ -96,6 +91,30 @@ nav li
 }
 
 .catégorie_filtres-texte
+{
+    margin-left: 20px;
+}
+/* i plus de 500 logements */
+
+.i_plus_de_500_row
+{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.cercle
+{
+    height: 20px;
+    width: 20px;
+    border-radius: 150px;
+    border: 3px solid #7a7a7a54;
+    margin: -4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cercle-text
 {
     margin-left: 20px;
 }
