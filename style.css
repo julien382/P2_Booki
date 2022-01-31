@@ -35,53 +35,72 @@ nav li
 
 /*-- trouver votre hébergement --*/
 
-/*-- Hébergements --*/
-
-/*
-.hebergements_et_plus_populaires
+.trouver_votre_hébergement
 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.every-cards
-{  
     display: flex;
     flex-direction: column;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 30px;
+    margin: 30px;
 }
+/* filtres */ 
 
-.cards
+.les_filtres
 {
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
+    align-items: center;
+    margin: 30px;
 }
 
-.card 
+/*.les_filtres
 {
+    display: flex;
+    margin: 30px;
+
     flex: none;
-    width: 250px;
-    margin: 20px;
+    height: 100px;
     background-color: white;
-    border: 5px solid white;
-    box-shadow: 2px 2px 6px 0px rgb(0 0 0 / 0.4);
     border-radius: 20px;
+    overflow: hidden;
+}*/
+
+.catégorie_filtres
+{
+    display: flex;
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    border: 4px solid #7a7a7a54;
+    border-radius: 150px;
+    margin-left: 40px;
+}
+
+.catégorie_filtres-image
+{
+    height: 58px;
+    width: 58px;
+    background-color: #DEEBFF;
+    border-radius: 150px;
+    margin: -4px;
+    position: relative;
     overflow: hidden;
 }
 
-.card-image img
+.catégorie_filtres-image img
 {
-    height: 100px;
-    max-width: 100%;
+
+    width: 150%;
+    /* Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-*/
+.catégorie_filtres-texte
+{
+    margin-left: 20px;
+}
+
+/*-- Hébergements --*/
 
 .hebergements_et_plus_populaires
 {
