@@ -3,6 +3,11 @@ html
     font-family: 'Raleway', sans-serif;
 }
 
+.fas 
+{
+    color:#0065FC;
+}
+
 body
 {
     margin: 0;
@@ -139,6 +144,9 @@ nav li
 
 .catégorie_filtres-image
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 56px;
     width: 56px;
     background-color: #DEEBFF;
@@ -163,6 +171,7 @@ nav li
 {
     margin-left: 20px;
 }
+
 /* i plus de 500 logements */
 
 .i_plus_de_500_row
@@ -174,6 +183,9 @@ nav li
 
 .cercle
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 20px;
     width: 20px;
     border-radius: 150px;
@@ -262,6 +274,13 @@ nav li
     border-radius: 20px;
     margin-left: 40px;
     padding: 38px;
+}
+
+.les_plus_row_logo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .cards-les-plus
