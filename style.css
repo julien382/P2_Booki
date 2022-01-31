@@ -14,6 +14,11 @@ header
     justify-content: space-between;
 }
 
+#logo
+{
+    margin-left: 80px;
+}
+
 header img
 {
     height: 60px;
@@ -44,7 +49,69 @@ nav li
 
 .trouver_votre
 {
-    margin: 30px;
+    margin-left: 30px;
+}
+
+/* recherche */
+
+.recherche
+{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border: 2px solid #7a7a7a54;
+    border-radius: 20px;
+    width: 450px;
+    height: 60px;
+    margin-top: 10px;
+}
+
+.recherche-part1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.recherche-part2
+{
+    display: flex;
+    height: 60px;
+    width: 250px;
+    background-color: white;
+}
+
+.recherche-part3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    background-color: #0065FC;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/*
+.recherche-part1-image
+{
+
+}*/
+
+#input-recherche
+{
+    border: none;
+}
+
+#recherche-text
+{
+    color: white;
 }
 
 /* filtres */ 
@@ -55,6 +122,8 @@ nav li
     align-items: center;
     margin-left: 30px;
     flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .catégorie_filtres
@@ -63,18 +132,18 @@ nav li
     height: 50px;
     width: 250px;
     background-color: white;
-    border: 4px solid #7a7a7a54;
+    border: 3px solid #7a7a7a42;
     border-radius: 150px;
     margin-left: 40px;
 }
 
 .catégorie_filtres-image
 {
-    height: 58px;
-    width: 58px;
+    height: 56px;
+    width: 56px;
     background-color: #DEEBFF;
     border-radius: 150px;
-    margin: -4px;
+    margin: -3px;
     position: relative;
     overflow: hidden;
 }
@@ -108,7 +177,7 @@ nav li
     height: 20px;
     width: 20px;
     border-radius: 150px;
-    border: 3px solid #7a7a7a54;
+    border: 3px solid #7a7a7a42;
     margin: -4px;
     position: relative;
     overflow: hidden;
