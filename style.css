@@ -8,10 +8,6 @@ html
     color:#0065FC;
 }
 
-body
-{
-    margin: 0;
-}
  /*-- header --*/
 header
 {
@@ -150,10 +146,9 @@ nav li
     height: 56px;
     width: 56px;
     background-color: #DEEBFF;
-    border-radius: 150px;
+    border-radius: 50%;
     margin: -3px;
     position: relative;
-    overflow: hidden;
 }
 
 .catégorie_filtres-image img
