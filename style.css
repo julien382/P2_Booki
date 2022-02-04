@@ -13,6 +13,13 @@ html
     color: #7a7a7a42;
 }
 
+.black_Logo
+{
+    color:black;
+}
+
+ /*-- texte --*/
+
 h1
 {
     font-size: 28px;
@@ -41,6 +48,8 @@ h3
 {
     font-weight: bold;
 }
+
+ /*-- marge --*/
 
 .marge_top
 {
@@ -81,23 +90,15 @@ header
 {
     display: flex;
     justify-content: space-between;
+    padding: 40px;  
 }
 
 .logo
 {
-    margin-left: 80px;
-}
-
-.black_Logo
-{
-    color:black;
-}
-
-header img
-{
     height: 60px;
-    margin: 30px;
+    margin-left: 40px;
 }
+
  /*-- nav --*/ 
 
 nav ul
@@ -108,7 +109,8 @@ nav ul
 
 nav li
 {
-    margin: 20px;
+    margin: 10px;
+    margin-right: 40px;
 }
 
 
