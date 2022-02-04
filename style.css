@@ -113,6 +113,12 @@ nav li
     margin-right: 40px;
 }
 
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
 
 /*-- trouver votre hébergement --*/
 
@@ -130,7 +136,7 @@ nav li
 {
     display: flex;
     align-items: center;
-    border: 2px solid #7a7a7a54;
+    border: 2px solid #7a7a7a42;
     border-radius: 20px;
     width: 450px;
     height: 60px;
