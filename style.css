@@ -8,6 +8,51 @@ html
     color:#0065FC;
 }
 
+h1
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h3
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.style_filtres
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gras
+{
+    font-weight: bold;
+}
+
+.marge_top
+{
+    margin-top: 10px;
+}
+
+.marge_top_20
+{
+    margin-top: 20px;
+}
+
+
+.marge_bottom_stars
+{
+    margin-top: 100px;
+}
+
  /*-- header --*/
 header
 {
@@ -15,9 +60,14 @@ header
     justify-content: space-between;
 }
 
-#logo
+.logo
 {
     margin-left: 80px;
+}
+
+.black_Logo
+{
+    color:black;
 }
 
 header img
@@ -45,12 +95,8 @@ nav li
 {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
-}
-
-.trouver_votre
-{
-    margin-left: 30px;
+    margin-left: 70px;
+    margin-bottom: 20px;
 }
 
 /* recherche */
@@ -59,15 +105,13 @@ nav li
 {
     display: flex;
     align-items: center;
-    margin-left: 30px;
     border: 2px solid #7a7a7a54;
     border-radius: 20px;
     width: 450px;
     height: 60px;
-    margin-top: 10px;
 }
 
-.recherche-part1
+.recherche_part1
 {
     display: flex;
     justify-content: center;
@@ -79,7 +123,7 @@ nav li
     border-bottom-left-radius: 20px;
 }
 
-.recherche-part2
+.recherche_part2
 {
     display: flex;
     height: 60px;
@@ -87,7 +131,7 @@ nav li
     background-color: white;
 }
 
-.recherche-part3
+.recherche_part3
 {
     display: flex;
     justify-content: center;
@@ -99,18 +143,7 @@ nav li
     border-bottom-right-radius: 20px;
 }
 
-/*
-.recherche-part1-image
-{
-
-}*/
-
-#input-recherche
-{
-    border: none;
-}
-
-#recherche-text
+#recherche_text
 {
     color: white;
 }
@@ -121,7 +154,6 @@ nav li
 {
     display: flex;
     align-items: center;
-    margin-left: 30px;
     flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 30px;
@@ -130,15 +162,17 @@ nav li
 .catégorie_filtres
 {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     height: 50px;
-    width: 250px;
+    /*width: 250px;*/
     background-color: white;
     border: 3px solid #7a7a7a42;
     border-radius: 150px;
     margin-left: 40px;
 }
 
-.catégorie_filtres-image
+.catégorie_filtres_image
 {
     display: flex;
     justify-content: center;
@@ -151,7 +185,7 @@ nav li
     position: relative;
 }
 
-.catégorie_filtres-image img
+.catégorie_filtres_image img
 {
 
     width: 150%;
@@ -162,9 +196,10 @@ nav li
     transform: translate(-50%, -50%);
 }
 
-.catégorie_filtres-texte
+.catégorie_filtres_texte
 {
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 /* i plus de 500 logements */
@@ -173,7 +208,6 @@ nav li
 {
     display: flex;
     align-items: center;
-    margin-left: 30px;
 }
 
 .cercle
@@ -190,9 +224,11 @@ nav li
     overflow: hidden;
 }
 
-.cercle-text
+.cercle_text
 {
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
 }
 
 /*-- Hébergements --*/
@@ -202,16 +238,15 @@ nav li
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 30px;
+    margin-left: 60px;
 }
 
-.every-cards
+.every_cards
 {
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-left: 30px;
     padding: 40px;
 }
 
@@ -235,14 +270,14 @@ nav li
     overflow: hidden;
 }
 
-.card-image
+.card_image
 {
     height: 180px;
     position: relative;
     overflow: hidden;
 }
 
-.card-image img
+.card_image img
 {
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
@@ -252,7 +287,7 @@ nav li
     transform: translate(-50%, -50%);
 }
 
-.card-text
+.card_text
 {
     text-align:left; 
     padding: 0px 20px;
@@ -261,7 +296,7 @@ nav li
 
 /*-- Les plus populaires --*/
 
-.every-cards-les-plus
+.every_cards_les_plus
 {
     display: flex;
     flex-direction: column;
@@ -278,7 +313,7 @@ nav li
     align-items: center;
 }
 
-.cards-les-plus
+.cards_les_plus
 {
     display: flex;
     flex-direction: column;
@@ -286,7 +321,7 @@ nav li
     align-items: stretch;
 }
 
-.card-les-plus
+.card_les_plus
 {
     display: flex;
     flex-direction: row;
@@ -301,7 +336,7 @@ nav li
     overflow: hidden;
 }
 
-.card-image-les-plus
+.card_image_les_plus
 {
     width: 200px;
     height: 200px;
@@ -309,7 +344,7 @@ nav li
     overflow: hidden;
 }
 
-.card-image-les-plus img
+.card_image_les_plus img
 {
     width: 180%;
     /* Méthode de centrage en fonction de la taille de l'image */
@@ -319,7 +354,7 @@ nav li
     transform: translate(-50%, -50%);
 }
 
-.card-text-les-plus
+.card_text_les_plus
 {
     width: 300px;
     text-align:left; 
