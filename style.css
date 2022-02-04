@@ -601,27 +601,21 @@ footer
 {
     display: flex;
     background-color: #F2F2F2;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .a_propos
 {
-    margin-top: 30px;
-    margin-left: 70px;
-    margin-bottom: 30px;
+    margin-left: 60px;
 }
 
 .nos_hebergements
 {
-    margin-top: 30px;
-    margin-left: 500px;
-    margin-bottom: 30px;
+    margin-left: 350px;
 }
 
 .assistance
 {
-    margin-top: 30px;
-    margin-left: 500px;
-    margin-bottom: 30px;
-    margin-right: 500px;
+    margin-left: 460px;
 }
