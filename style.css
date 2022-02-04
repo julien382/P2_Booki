@@ -8,15 +8,20 @@ html
     color:#0065FC;
 }
 
+.star_grey
+{
+    color: #7a7a7a42;
+}
+
 h1
 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
 h2
 {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -28,7 +33,7 @@ h3
 
 .style_filtres
 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -47,12 +52,25 @@ h3
     margin-top: 20px;
 }
 
-
-.marge_bottom_stars
+.marge_bottom
 {
-    margin-top: 100px;
+    margin-bottom: 10px;
 }
 
+.marge_bottom_30
+{
+    margin-bottom: 30px;
+}
+
+.marge_bottom_40
+{
+    margin-bottom: 40px;
+}
+
+.marge_right_40
+{
+    margin-right: 40px;
+}
  /*-- header --*/
 header
 {
@@ -215,10 +233,10 @@ nav li
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     border-radius: 150px;
-    border: 3px solid #7a7a7a42;
+    border: 2px solid #7a7a7a42;
     margin: -4px;
     position: relative;
     overflow: hidden;
@@ -229,9 +247,10 @@ nav li
     display: flex;
     justify-content: center;
     margin-left: 15px;
+    font-size: 18px;
 }
 
-/*-- Hébergements --*/
+/*-- Hébergements et Les plus populaires --*/
 
 .hebergements_et_plus_populaires
 {
@@ -239,7 +258,10 @@ nav li
     justify-content: space-between;
     align-items: center;
     margin-left: 60px;
+    margin-right: 60px;
 }
+
+/*-- Hébergements --*/
 
 .every_cards
 {
@@ -247,7 +269,7 @@ nav li
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding: 40px;
+    padding: 50px;
 }
 
 .cards
@@ -260,9 +282,8 @@ nav li
 .card
 {
     flex: none;
-    width: 370px;
-    height: 300px;
-    margin: 25px;
+    width: 330px;
+    height: 270px;
     background-color: white;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
     border: 7px solid white;
@@ -294,6 +315,12 @@ nav li
     box-sizing: border-box;
 }
 
+.afficher_plus
+{
+    margin-top: 40px;
+    font-size: 20px;
+}
+
 /*-- Les plus populaires --*/
 
 .every_cards_les_plus
@@ -302,8 +329,7 @@ nav li
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 20px;
-    margin-left: 40px;
-    padding: 38px;
+    padding: 50px;
 }
 
 .les_plus_row_logo
@@ -311,6 +337,7 @@ nav li
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .cards_les_plus
@@ -325,10 +352,8 @@ nav li
 {
     display: flex;
     flex-direction: row;
-    /*flex: none;*/
-    width: 460px;
-    height: 200px;
-    margin: 25px;
+    width: 400px;
+    height: 185px;
     background-color: white;
     box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
     border: 7px solid white;
@@ -338,15 +363,14 @@ nav li
 
 .card_image_les_plus
 {
-    width: 200px;
-    height: 200px;
+    width: 220px;
     position: relative;
     overflow: hidden;
 }
 
 .card_image_les_plus img
 {
-    width: 180%;
+    width: 170%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
     top: 50%;
@@ -356,6 +380,9 @@ nav li
 
 .card_text_les_plus
 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     width: 300px;
     text-align:left; 
     padding: 0px 20px;
