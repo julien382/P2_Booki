@@ -181,6 +181,12 @@ a
 
 /* filtres */ 
 
+.categorie_filtres:hover
+{
+    background-color: #0065FC;
+    color:white;
+}
+
 .les_filtres
 {
     display: flex;
@@ -208,11 +214,11 @@ a
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 56px;
-    width: 56px;
+    height: 57px;
+    width: 57px;
     background-color: #DEEBFF;
     border-radius: 50%;
-    margin: -3px;
+    margin: -10px;
     position: relative;
 }
 
