@@ -122,7 +122,7 @@ a
 
 /*-- trouver votre hébergement --*/
 
-.trouver_votre_hébergement
+.trouver_votre_hebergement
 {
     display: flex;
     flex-direction: column;
@@ -190,7 +190,7 @@ a
     margin-bottom: 30px;
 }
 
-.catégorie_filtres
+.categorie_filtres
 {
     display: flex;
     align-items: center;
@@ -203,7 +203,7 @@ a
     margin-left: 40px;
 }
 
-.catégorie_filtres_image
+.categorie_filtres_image
 {
     display: flex;
     justify-content: center;
@@ -216,7 +216,7 @@ a
     position: relative;
 }
 
-.catégorie_filtres_image img
+.categorie_filtres_image img
 {
 
     width: 150%;
@@ -227,7 +227,7 @@ a
     transform: translate(-50%, -50%);
 }
 
-.catégorie_filtres_texte
+.categorie_filtres_texte
 {
     margin-left: 20px;
     margin-right: 20px;
@@ -404,20 +404,20 @@ a
 
 /*-- activités --*/
 
-.activités_à_Marseille
+.activites_à_Marseille
 {
     margin: 30px;
     margin-top: 80px;
 }
 
-.activités_row
+.activites_row
 {
     display:flex;
     flex-direction: row;
 
 }
 
-.activités_column
+.activites_column
 {
     display:flex;
     flex-direction: column;
