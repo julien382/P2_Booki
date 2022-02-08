@@ -175,6 +175,14 @@ a
     background-color: white;
 }
 
+::placeholder 
+{
+    padding-left: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
 .recherche_part3
 {
     display: flex;
@@ -190,6 +198,7 @@ a
 .recherche_text
 {
     color: white;
+    font-size: 20px;
 }
 
 /* filtres */ 
