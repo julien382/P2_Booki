@@ -90,27 +90,40 @@ header
 {
     display: flex;
     justify-content: space-between;
-    padding: 40px;  
+    /*padding: 40px;  */
 }
 
 .logo
 {
     height: 60px;
-    margin-left: 40px;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
  /*-- nav --*/ 
 
-nav ul
+.nav
 {
     display: flex;
     list-style: none;
+    margin-right: 70px;
 }
 
-nav li
+.marge_heber_acti
 {
-    margin: 10px;
-    margin-right: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 2px solid white;
+    padding-bottom: 15px;
+}
+
+.marge_heber_acti:hover
+{
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
 }
 
 a
