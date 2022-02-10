@@ -324,8 +324,9 @@ input
 {
     display: flex;
     flex-wrap: wrap;
-    align-items: stretch;
+    justify-content: space-between;    
 }
+
 
 .card
 {
@@ -394,7 +395,6 @@ input
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: stretch;
 }
 
 .card_les_plus
