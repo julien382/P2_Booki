@@ -175,6 +175,11 @@ a
     background-color: white;
 }
 
+input
+{
+    width: 100%;
+}
+
 ::placeholder 
 {
     padding-left: 10px;
@@ -229,6 +234,7 @@ a
     border: 3px solid #7a7a7a42;
     border-radius: 150px;
     margin-left: 40px;
+    cursor: pointer;
 }
 
 .categorie_filtres_image
