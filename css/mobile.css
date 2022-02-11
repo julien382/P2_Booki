@@ -8,29 +8,29 @@ header
 .logo
 {
     margin: 0;
-    padding: 20px;
-    background-color: aqua;
 }
  /* nav */ 
 
  .nav
  {
-     display: flex;
+    flex-grow: 1;
+    margin: 0;
  }
  
  .marge_heber_acti
  {
-     padding-top: 40px;
-     padding-left: auto;
-     padding-right: auto;
-     border-top: 2px solid white;
-     padding-bottom: 15px;
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    border-top: none;
+    border-bottom: 2px solid white;
  }
  
  .marge_heber_acti:hover
  {
-     border-top: 2px solid #0065fc;
-     color: #0065fc;
+    border-top: none;
+    border-bottom: 2px solid #0065fc;
+    color: #0065fc;
  }
 
 /*-- trouver votre hébergement --*/
