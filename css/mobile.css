@@ -108,7 +108,118 @@ h1
 }
 
 /*-- activités --*/
+.activites_à_Marseille
+{
+    margin: 0px;
+    margin-top: 0px;
+    padding: 30px;
+}
 
+.activites_row
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.card_column
+{
+    flex: none;
+    width: 400px;
+    height: 250px;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card_column_image
+{
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_row1
+{
+    flex: none;
+    width: 400px;
+    height: 250px;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card_row_image1
+{
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_row2
+{
+    flex: none;
+    width: 400px;
+    height: 250px;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card_row_image2
+{
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_row3
+{
+    flex: none;
+    width: 400px;
+    height: 250px;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card_row_image3
+{
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_row4
+{
+    flex: none;
+    width: 400px;
+    height: 250px;
+    margin: 0px;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card_row_image4
+{
+    height: 190px;
+    position: relative;
+    overflow: hidden;
+}
 
 /*-- footer --*/
 footer{
