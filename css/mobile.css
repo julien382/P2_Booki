@@ -75,12 +75,37 @@ h1
 
 /*-- Hébergements et Les plus populaires --*/
 
+.hebergements_et_plus_populaires
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-right: 0px;
+}
 
 /* Hébergements */
 
+.every_cards
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+}
 
 /* Les plus populaires */
 
+.every_cards_les_plus
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 0px;
+}
 
 /*-- activités --*/
 
