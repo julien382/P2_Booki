@@ -223,13 +223,16 @@ input
     margin-bottom: 30px;
 }
 
+.liste_filtres{
+    display: flex;
+}
+
 .categorie_filtres
 {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     height: 50px;
-    /*width: 250px;*/
     background-color: white;
     border: 3px solid #7a7a7a42;
     border-radius: 150px;
