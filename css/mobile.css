@@ -1,16 +1,63 @@
+/*-- header --*/
 header
 {
     flex-direction: column;
-    justify-content: center;
-    height: auto;
+    align-items: center;
 }
 
 .logo
 {
+    margin: 0;
+    padding: 20px;
     background-color: aqua;
-    height: 60px;
+}
+ /* nav */ 
+
+ .nav
+ {
+     display: flex;
+ }
+ 
+ .marge_heber_acti
+ {
+     padding-top: 40px;
+     padding-left: auto;
+     padding-right: auto;
+     border-top: 2px solid white;
+     padding-bottom: 15px;
+ }
+ 
+ .marge_heber_acti:hover
+ {
+     border-top: 2px solid #0065fc;
+     color: #0065fc;
+ }
+
+/*-- trouver votre hébergement --*/
+h1
+{
+    color: blue;
 }
 
+/* recherche */
+
+
+/* filtres */ 
+
+
+/*-- Hébergements et Les plus populaires --*/
+
+
+/* Hébergements */
+
+
+/* Les plus populaires */
+
+
+/*-- activités --*/
+
+
+/*-- footer --*/
 footer{
     flex-direction: column;
     padding: 60px;
@@ -28,15 +75,4 @@ footer{
 .assistance{
     margin: 0;
     margin-top: 60px;
-}
-
-
-
-
-
-
-
-h1
-{
-    color: blue;
 }

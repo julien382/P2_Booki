@@ -96,7 +96,7 @@ header
 
 .logo
 {
-    height: 60px;
+    width: 100px;
     margin-left: 90px;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -268,7 +268,7 @@ input
     margin-right: 20px;
 }
 
-/* i plus de 500 logements */
+/* filtres */ 
 
 .i_plus_de_500_row
 {
@@ -309,7 +309,7 @@ input
     margin-right: 60px;
 }
 
-/*-- Hébergements --*/
+/* Hébergements */
 
 .every_cards
 {
@@ -369,7 +369,7 @@ input
     font-size: 20px;
 }
 
-/*-- Les plus populaires --*/
+/* Les plus populaires */
 
 .every_cards_les_plus
 {
