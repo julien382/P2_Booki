@@ -1,3 +1,41 @@
+header
+{
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+}
+
+.logo
+{
+    background-color: aqua;
+    height: 60px;
+}
+
+footer{
+    flex-direction: column;
+    padding: 60px;
+}
+
+.a_propos{
+    margin: 0;
+}
+
+.nos_hebergements{
+    margin: 0;
+    margin-top: 60px;
+}
+
+.assistance{
+    margin: 0;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
 h1
 {
     color: blue;
