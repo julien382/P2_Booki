@@ -218,7 +218,6 @@ input
 {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 30px;
 }
@@ -229,22 +228,15 @@ input
 
 .categorie_filtres
 {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 50px;
     background-color: white;
     border: 3px solid #7a7a7a42;
-    border-radius: 150px;
+    border-radius: 50px;
     margin-left: 40px;
     cursor: pointer;
 }
 
 .categorie_filtres_image
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 57px;
     width: 57px;
     background-color: #DEEBFF;
@@ -253,24 +245,13 @@ input
     position: relative;
 }
 
-.categorie_filtres_image img
-{
-
-    width: 150%;
-    /* Méthode de centrage en fonction de la taille de l'image */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .categorie_filtres_texte
 {
     margin-left: 20px;
     margin-right: 20px;
 }
 
-/* filtres */ 
+/* i */ 
 
 .i_plus_de_500_row
 {
