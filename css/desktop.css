@@ -198,6 +198,7 @@ input
     background-color: #0065FC;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    border: none;
 }
 
 .recherche_text
@@ -207,7 +208,53 @@ input
 }
 
 /* filtres */ 
+.filters {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    font-weight: 700;
+    font-size: 13px;
+}
 
+.filters-title {
+    margin-left: 10px;
+    margin-right: 16px;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #deebff;
+    margin-right: 10px;
+    color: #0065fc;
+}
+
+.filters a {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-right: 2px solid #f2f2f2;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    border-radius: 20px;
+    padding-right: 14px;
+}
+
+.filters a:hover {
+    background-color: #0065fc;
+    color: #ffffff;
+    transition: 0.3 ease-in-out;
+}
+/*
 .categorie_filtres:hover
 {
     background-color: #0065FC;
@@ -249,7 +296,7 @@ input
 {
     margin-left: 20px;
     margin-right: 20px;
-}
+}*/
 
 /* i */ 
 
