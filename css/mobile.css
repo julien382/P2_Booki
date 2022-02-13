@@ -11,6 +11,7 @@
     header
     {
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
@@ -30,7 +31,7 @@
     .marge_heber_acti
     {
         display: flex;
-        padding: 0;
+        width: 100%;
         border-bottom: 2px solid #7a7a7a42;
         padding-bottom: 15px;
     }
@@ -64,17 +65,17 @@
 
     .recherche_part1
     {
-        width: 10%;
+        width: 60px;
     }
 
     .recherche_part2
     {
-        width: 80%;
+        width: 100%;
     }
 
     .recherche_part3
     {
-        width: 10%;
+        width: 60px;
         border-radius: 20px;
     }
 
