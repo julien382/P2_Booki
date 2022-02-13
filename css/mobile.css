@@ -32,6 +32,7 @@
         display: flex;
         padding: 0;
         border-bottom: 2px solid #7a7a7a42;
+        padding-bottom: 15px;
     }
     
     .marge_heber_acti:hover
@@ -164,6 +165,12 @@
         border-radius: 0px;
         padding: 30px;
         margin-left: 0px;
+    }
+    
+    .cards_les_plus
+    {
+        display: flex;
+        flex-direction: row;
     }
 
     .card_les_plus
