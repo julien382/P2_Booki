@@ -51,6 +51,7 @@
         margin-left: 0px;
         margin-bottom: 0px;
         padding: 30px;
+        background-color: yellow;
     }
 
     /* recherche */
@@ -77,6 +78,7 @@
     .les_filtres
     {
         display: flex;
+        background-color: blue;
         flex-direction: column;
         align-items:flex-start;
     }
@@ -87,6 +89,7 @@
         align-items:flex-start;
         flex-wrap: wrap;
         background-color: aqua;
+        width: 100%
     }
 
     .categorie_filtres
@@ -114,7 +117,7 @@
     {
         display: flex;
         flex-direction: column;
-        background-color: white;
+        background-color: yellow;
         padding: 30px;
     }
 
@@ -167,12 +170,11 @@
     .card_les_plus
     {
         width: 100%;
-        height: 182px;
     }
 
     .card_image_les_plus
     {
-        width: 50%;
+        width: 40%;
         position: relative;
         overflow: hidden;
     }
@@ -189,10 +191,9 @@
 
     .card_text_les_plus
     {
-        display: flex;
         justify-content: space-between;
         flex-direction: column;
-        width: 300px;
+        width: 60%;
         text-align:left; 
         padding: 0px 20px;
         box-sizing: border-box;

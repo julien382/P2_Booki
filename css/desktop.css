@@ -288,7 +288,7 @@ input
     height: 50px;
     background-color: white;
     border: 3px solid #7a7a7a42;
-    border-radius: 50px;
+    border-radius: 100px;
     margin-left: 40px;
     cursor: pointer;
 }
@@ -298,8 +298,8 @@ input
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 57px;
-    width: 57px;
+    height: 50px;
+    width: 50px;
     background-color: #DEEBFF;
     border-radius: 50%;
     margin: -10px;
@@ -452,7 +452,7 @@ input
 
 .card_image_les_plus
 {
-    width: 220px;
+    width: 40%;
     position: relative;
     overflow: hidden;
 }
@@ -472,7 +472,7 @@ input
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 300px;
+    width: 60%;
     text-align:left; 
     padding: 0px 20px;
     box-sizing: border-box;
