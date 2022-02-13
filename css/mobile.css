@@ -40,41 +40,41 @@
     {
         color: blue;
     }
+    .trouver_votre_hebergement
+    {
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding: 30px;
+    }
 
     /* recherche */
 
 
     /* filtres */
-/*
+
     .les_filtres
     {
         display: flex;
         flex-direction: column;
         align-items:flex-start;
-        flex-wrap: wrap;
-        margin-top: 40px;
-        margin-bottom: 30px;
     }
 
     .liste_filtres{
         display: flex;
         flex-direction: column;
+        align-items:flex-start;
+        flex-wrap: wrap;
+        background-color: aqua;
     }
 
     .categorie_filtres
     {
         display: flex;
-        align-items: center;
         flex-wrap: wrap;
-        height: 50px;
-        background-color: white;
-        border: 3px solid #7a7a7a42;
-        border-radius: 150px;
         margin-left: 0px;
         margin-top: 20px;
-        cursor: pointer;
     }
-*/
+
     /*-- Hébergements et Les plus populaires --*/
 
     .hebergements_et_plus_populaires
@@ -142,9 +142,64 @@
         display: flex;
         flex-direction: column;
         background-color: #F2F2F2;
-        border-radius: 20px;
-        padding: 50px;
+        border-radius: 0px;
+        padding: 30px;
         margin-left: 0px;
+    }
+
+        .les_plus_row_logo
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .cards_les_plus
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .card_les_plus
+    {
+        flex-direction: row;
+        width: 400px;
+        height: 182px;
+        background-color: white;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+        border: 7px solid white;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .card_image_les_plus
+    {
+        width: 220px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .card_image_les_plus img
+    {
+        width: 170%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .card_text_les_plus
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 300px;
+        text-align:left; 
+        padding: 0px 20px;
+        box-sizing: border-box;
     }
 
     /*-- activités --*/

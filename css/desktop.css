@@ -280,7 +280,6 @@ input
 {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     height: 50px;
     background-color: white;
     border: 3px solid #7a7a7a42;
