@@ -17,20 +17,21 @@
 
     .nav
     {
-        flex-grow: 1;
+        display: flex;
+        justify-content: space-between;
         margin: 0;
     }
     
     .marge_heber_acti
     {
         display: flex;
-        flex-grow: 1;
         padding: 0;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid #7a7a7a42;
     }
     
     .marge_heber_acti:hover
     {
+        border: none;
         border-bottom: 2px solid #0065fc;
         color: #0065fc;
     }
