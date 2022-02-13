@@ -50,6 +50,22 @@
 
     /* recherche */
 
+    .recherche_part1
+    {
+        width: 13%;
+    }
+
+    .recherche_part2
+    {
+        width: 74%;
+    }
+
+    .recherche_part3
+    {
+        width: 13%;
+        border-radius: 20px;
+        
+    }
 
     /* filtres */
 
