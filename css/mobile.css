@@ -102,11 +102,22 @@
         width: 70px;
         border-radius: 20px;
     }
+    
+    .mobile
+    {
+        display: flex;
+    }
 
-    .text-rechercher
+    .desk
     {
         display: none;
     }
+
+/*
+    .text-rechercher
+    {
+        display: none;
+    }*/
 
     /* filtres */
 

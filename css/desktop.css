@@ -196,7 +196,7 @@ a
     background-color: white;
 }
 
-.loupe
+.mobile
 {
     display: none;
 }
@@ -233,10 +233,6 @@ input
     font-size: 20px;
 }
 
-.fas
-{
-    display: none;
-}
 
 /* filtres */ /*
 .filters {
