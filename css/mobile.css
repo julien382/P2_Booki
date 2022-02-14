@@ -89,7 +89,7 @@
 
     .recherche_part1
     {
-        width: 60px;
+        width: 70px;
     }
 
     .recherche_part2
@@ -99,8 +99,13 @@
 
     .recherche_part3
     {
-        width: 60px;
+        width: 70px;
         border-radius: 20px;
+    }
+
+    .text-rechercher
+    {
+        display: none;
     }
 
     /* filtres */
@@ -202,7 +207,7 @@
 
     .card_les_plus
     {
-        width: 110%;
+        width: 100%;
     }
 
     .card_image_les_plus

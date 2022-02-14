@@ -24,6 +24,10 @@ html
     color:black;
 }
 
+.white_Logo
+{
+    color:white;
+}
  /*-- texte --*/
 
 h1
@@ -192,6 +196,11 @@ a
     background-color: white;
 }
 
+.loupe
+{
+    display: none;
+}
+
 input
 {
     width: 100%;
@@ -222,6 +231,11 @@ input
 {
     color: white;
     font-size: 20px;
+}
+
+.fas
+{
+    display: none;
 }
 
 /* filtres */ /*
