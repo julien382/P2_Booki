@@ -29,7 +29,7 @@
         width: 100%;
     }
     
-    .marge_heber
+    .nav_heber
     {
         display: flex;
         justify-content: center;
@@ -41,7 +41,7 @@
         width: 50%;
     }
 
-    .marge_acti
+    .nav_acti
     {
         display: flex;
         justify-content: center;
@@ -53,14 +53,14 @@
         width: 50%;
     }
     
-    .marge_heber:hover
+    .nav_heber:hover
     {
         border: none;
         border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
 
-    .marge_acti:hover
+    .nav_acti:hover
     {
         border: none;
         border-bottom: 3px solid #0065fc;

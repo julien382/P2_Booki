@@ -115,7 +115,7 @@ header
     margin-right: 70px;
 }
 
-.marge_heber
+.nav_heber
 {
     padding-top: 40px;
     padding-left: 20px;
@@ -124,7 +124,7 @@ header
     padding-bottom: 15px;
 }
 
-.marge_acti
+.nav_acti
 {
     padding-top: 40px;
     padding-left: 20px;
@@ -133,13 +133,13 @@ header
     padding-bottom: 15px;
 }
 
-.marge_heber:hover
+.nav_heber:hover
 {
     border-top: 2px solid #0065fc;
     color: #0065fc;
 }
 
-.marge_acti:hover
+.nav_acti:hover
 {
     border-top: 2px solid #0065fc;
     color: #0065fc;
