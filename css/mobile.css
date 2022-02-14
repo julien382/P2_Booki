@@ -11,19 +11,17 @@
     header
     {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
 
     .logo
     {
-        margin: 0;
+        margin: 0;      
     }
     /* nav */ 
 
     .nav
     {
-        display: flex;
         justify-content: space-between;
         margin: 0;
     }
@@ -31,9 +29,11 @@
     .marge_heber_acti
     {
         display: flex;
-        width: 100%;
+        padding-left: 70px;
+        padding-right: 70px;
         border-bottom: 2px solid #7a7a7a42;
         padding-bottom: 15px;
+
     }
     
     .marge_heber_acti:hover

@@ -115,7 +115,6 @@ header
 .nav
 {
     display: flex;
-    list-style: none;
     margin-right: 70px;
     background-color: aqua;
 }
