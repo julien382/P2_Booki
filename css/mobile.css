@@ -17,7 +17,8 @@
 
     .logo
     {
-        margin: 0;      
+        margin: 0;
+        margin-top: 20px;
     }
     /* nav */ 
 
@@ -35,7 +36,7 @@
         padding-left: 0px;
         padding-right: 0px;
         border-top: none;
-        border-bottom: 2px solid #7a7a7a42;
+        border-bottom: 3px solid #7a7a7a42;
         padding-bottom: 15px;
         width: 50%;
     }
@@ -47,7 +48,7 @@
         padding-left: 0;
         padding-right: 0;
         border-top: none;
-        border-bottom: 2px solid #7a7a7a42;
+        border-bottom: 3px solid #7a7a7a42;
         padding-bottom: 15px;
         width: 50%;
     }
@@ -55,14 +56,14 @@
     .marge_heber:hover
     {
         border: none;
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
 
     .marge_acti:hover
     {
         border: none;
-        border-bottom: 2px solid #0065fc;
+        border-bottom: 3px solid #0065fc;
         color: #0065fc;
     }
 
