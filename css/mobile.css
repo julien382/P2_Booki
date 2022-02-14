@@ -197,39 +197,27 @@
     .cards_les_plus
     {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .card_les_plus
     {
-        width: 100%;
+        width: 110%;
     }
 
     .card_image_les_plus
     {
         width: 40%;
-        position: relative;
-        overflow: hidden;
     }
 
     .card_image_les_plus img
     {
-        width: 170%;
-        /* Méthode de centrage en fonction de la taille de l'image */
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        width: 100%;
     }
 
     .card_text_les_plus
     {
-        justify-content: space-between;
-        flex-direction: column;
         width: 60%;
-        text-align:left; 
-        padding: 0px 20px;
-        box-sizing: border-box;
     }
 
     /*-- activités --*/

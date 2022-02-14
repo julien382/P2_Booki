@@ -447,6 +447,7 @@ input
 {
     display: flex;
     flex-direction: column;
+    background-color: aqua;
 }
 
 .card_les_plus
@@ -460,6 +461,7 @@ input
     border: 7px solid white;
     border-radius: 20px;
     overflow: hidden;
+    background-color: red;
 }
 
 .card_image_les_plus
