@@ -22,7 +22,7 @@
 
     .nav
     {
-        justify-content:center;
+        display: flex;
         margin: 0;
         width: 100%;
     }
@@ -30,25 +30,25 @@
     .marge_heber
     {
         display: flex;
+        justify-content: center;
         padding-left: 0px;
         padding-right: 0px;
         border-bottom: 2px solid #7a7a7a42;
         padding-bottom: 15px;
-        padding: 0;
         width: 50%;
     }
 
     .marge_acti
     {
         display: flex;
+        justify-content: center;
         padding-left: 0;
         padding-right: 0;
         border-bottom: 2px solid #7a7a7a42;
         padding-bottom: 15px;
-        padding: 0;
         width: 50%;
     }
-    /*
+    
     .marge_heber:hover
     {
         border: none;
@@ -61,7 +61,7 @@
         border: none;
         border-bottom: 2px solid #0065fc;
         color: #0065fc;
-    }*/
+    }
 
     /*-- trouver votre hébergement --*/
 
