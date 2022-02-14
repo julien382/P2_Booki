@@ -119,7 +119,7 @@ header
     background-color: aqua;
 }
 
-.marge_heber_acti
+.marge_heber
 {
     padding-top: 40px;
     padding-left: 20px;
@@ -128,11 +128,26 @@ header
     padding-bottom: 15px;
 }
 
-.marge_heber_acti:hover
+.marge_acti
+{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 2px solid white;
+    padding-bottom: 15px;
+}
+/*
+.marge_heber:hover
 {
     border-top: 2px solid #0065fc;
     color: #0065fc;
 }
+
+.marge_acti:hover
+{
+    border-top: 2px solid #0065fc;
+    color: #0065fc;
+}*/
 
 a
 {

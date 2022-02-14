@@ -22,28 +22,46 @@
 
     .nav
     {
-        justify-content: space-between;
+        justify-content:center;
         margin: 0;
         width: 100%;
     }
     
-    .marge_heber_acti
+    .marge_heber
     {
-        padding-left: 0;
-        padding-right: 0;
-        padding-left: 50%;
-        padding-right: 50%;
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
         border-bottom: 2px solid #7a7a7a42;
         padding-bottom: 15px;
-
+        padding: 0;
+        width: 50%;
     }
-    
-    .marge_heber_acti:hover
+
+    .marge_acti
+    {
+        display: flex;
+        padding-left: 0;
+        padding-right: 0;
+        border-bottom: 2px solid #7a7a7a42;
+        padding-bottom: 15px;
+        padding: 0;
+        width: 50%;
+    }
+    /*
+    .marge_heber:hover
     {
         border: none;
         border-bottom: 2px solid #0065fc;
         color: #0065fc;
     }
+
+    .marge_acti:hover
+    {
+        border: none;
+        border-bottom: 2px solid #0065fc;
+        color: #0065fc;
+    }*/
 
     /*-- trouver votre hébergement --*/
 
