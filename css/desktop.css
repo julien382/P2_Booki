@@ -712,9 +712,11 @@ input
 footer
 {
     display: flex;
+    justify-content:flex-start;
     background-color: #F2F2F2;
     padding-top: 50px;
     padding-bottom: 50px;
+    
 }
 
 .a_propos
@@ -724,10 +726,10 @@ footer
 
 .nos_hebergements
 {
-    margin-left: 350px;
+    margin-left: 18%;
 }
 
 .assistance
 {
-    margin-left: 460px;
+    margin-left: 25%;
 }
