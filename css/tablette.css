@@ -20,7 +20,6 @@
     .liste_filtres{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
         width: 100%
     }
 
@@ -30,6 +29,7 @@
         flex-wrap: wrap;
         margin-left: 0px;
         margin-top: 20px;
+        margin-right: 40px;
     }
 
     /*-- Hébergements et Les plus populaires --*/
