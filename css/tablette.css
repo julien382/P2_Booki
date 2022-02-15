@@ -43,6 +43,27 @@
         margin-right: 0px;
     }
 
+    /* Hébergements */
+
+    .every_cards
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        padding: 30px;
+        width: 100%;
+    }
+
+    /* Les plus populaires */
+
+    .every_cards_les_plus
+    {
+        border-radius: 0px;
+        padding: 30px;
+        margin-left: 0px;
+        width: 100%;
+    }
+
     /*-- activités --*/
     .activites_à_Marseille
     {
