@@ -252,6 +252,18 @@
         flex-direction: column;
     }
 
+    .activites_col_column
+    {
+        width: 100%;
+    }
+
+    .activites_column
+    {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     .card_column
     {
         flex: none;
