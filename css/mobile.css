@@ -244,6 +244,12 @@
         flex-direction: column;
     }
 
+    .activites_row2
+{
+    display:flex;
+    flex-direction: column;
+}
+
     .card_column
     {
         flex: none;

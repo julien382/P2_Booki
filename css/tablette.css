@@ -1,0 +1,40 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+    * 
+    {
+        box-sizing: border-box;
+    }
+
+    h1{
+        color: red;
+    }
+
+    /*-- Hébergements et Les plus populaires --*/
+
+    .hebergements_et_plus_populaires
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    /*-- activités --*/
+    .activites_à_Marseille
+    {
+        margin: 0px;
+        margin-top: 0px;
+        padding: 30px;
+    }
+
+    .activites_row
+    {
+        display:flex;
+        flex-direction: column;
+    }
+
+
+
+
+}

@@ -513,7 +513,12 @@ input
 {
     display:flex;
     flex-direction: row;
+}
 
+.activites_row2
+{
+    display:flex;
+    flex-direction: row;
 }
 
 .activites_column
