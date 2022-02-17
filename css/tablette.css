@@ -48,12 +48,12 @@
         flex-direction: column;
         background-color: white;
         padding: 30px;
-        width: 140%;
+        width: 100%;
     }
 
     .card_image img
     {
-        width: 100%;
+        width: 140%;
         /* Méthode de centrage en fonction de la taille de l'image */
         position: absolute;
         top: 50%;
