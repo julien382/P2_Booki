@@ -48,7 +48,17 @@
         flex-direction: column;
         background-color: white;
         padding: 30px;
+        width: 140%;
+    }
+
+    .card_image img
+    {
         width: 100%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     /* Les plus populaires */
@@ -60,12 +70,37 @@
         margin-left: 0px;
         width: 100%;
     }
+    
+    .cards_les_plus
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-    /* 
-    
-    image width 100% 
-    
-    */
+    .card_les_plus
+    {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 600px;
+        height: 182px;
+        background-color: white;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
+        border: 7px solid white;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .card_image_les_plus img
+    {
+        width: 110%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 
     /*-- activités --*/
     .activites_à_Marseille
