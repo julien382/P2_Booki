@@ -576,6 +576,7 @@ input::placeholder
 
 .card_row_body1
 {
+    height: 50px;
     text-align:left; 
     padding: 0px 20px;
     box-sizing: border-box;
