@@ -116,4 +116,56 @@
         flex-direction: column;
     }
 
+    .card_column_image img
+    {
+        width: 265%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .card_row_image1 img
+    {
+        width: 100%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .card_row_image2 img
+    {
+        width: 100%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .card_row_image3 img
+    {
+        width: 100%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .card_row_image4 img
+    {
+        width: 100%;
+        /* Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
 }
