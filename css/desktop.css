@@ -379,7 +379,7 @@ input::placeholder
 
 .card_image img
 {
-    width: 100%;
+    width: 120%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
     top: 50%;
@@ -457,7 +457,7 @@ input::placeholder
 
 .card_image_les_plus img
 {
-    width: 170%;
+    width: 210%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
     top: 50%;
@@ -530,10 +530,10 @@ input::placeholder
 
 .card_column_image img
 {
-    width: 220%;
+    width: 235%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -641,7 +641,7 @@ input::placeholder
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -677,7 +677,7 @@ input::placeholder
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
-    top: 65%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
