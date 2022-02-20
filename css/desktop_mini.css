@@ -1,9 +1,46 @@
-@media only screen and (min-width: 992px) and (max-width: 1570px) 
+@media only screen and (min-width: 992px) and (max-width: 1200px) 
 {
     * 
     {
         box-sizing: border-box;
     }
+
+     /*-- texte --*/
+
+    h1
+    {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    h2
+    {
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    h3
+    {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .style_filtres
+    {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    .gras
+    {
+        font-weight: bold;
+    }
+
+    p 
+    {
+        font-size: 12px;
+    }
+
 
     
 }
