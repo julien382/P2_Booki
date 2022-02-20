@@ -383,6 +383,9 @@ input::placeholder
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     object-fit: cover;
 }
 
