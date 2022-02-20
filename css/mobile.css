@@ -170,7 +170,6 @@
     {
         flex: none;
         width: 100%;
-        height: 270px;
         background-color: white;
         box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
         border: 7px solid white;
@@ -187,10 +186,11 @@
 
     .card_image img
     {
+        min-height: 100%;
         width: 100%;
         /* Méthode de centrage en fonction de la taille de l'image */
         position: absolute;
-        top: 40%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -240,6 +240,11 @@
         padding: 0px;
         margin-top: 0px;
         padding: 30px;
+    }
+
+    .activite_title
+    {
+        margin-left: 0;
     }
 
     .activites_row
