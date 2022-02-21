@@ -373,7 +373,7 @@ input::placeholder
 
 .card_image
 {
-    height: 150px;
+    height: 160px;
     position: relative;
     overflow: hidden;
 }
@@ -452,7 +452,7 @@ input::placeholder
 
 .card_image_les_plus
 {
-    width: 40%;
+    width: 45%;
     position: relative;
     overflow: hidden;
 }

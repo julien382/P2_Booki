@@ -103,6 +103,18 @@
         color: #0065fc;
     }
 
+    /*-- Hébergements et Les plus populaires --*/
+
+    .hebergements_et_plus_populaires
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        margin-left: 0px;
+        margin-right: 0px;
+        height: auto;
+    }
+    
     /*-- trouver votre hébergement --*/
 
     .trouver_votre_hebergement

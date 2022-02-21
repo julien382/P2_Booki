@@ -41,6 +41,20 @@
         font-size: 12px;
     }
 
+    /*-- Hébergements et Les plus populaires --*/
+
+    .hebergements_et_plus_populaires
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+        margin-left: 60px;
+        margin-right: 60px;
+        height: auto;
+    }
+
+    /*-- Les plus populaires --*/
+
     .card_text_les_plus
     {
         display: flex;
