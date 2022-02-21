@@ -42,6 +42,10 @@
     }
 
     a{text-decoration: none;}
+
+    .fas {
+        font-size: 12px;
+    }
     
     /*-- header --*/
     header
