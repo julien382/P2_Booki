@@ -43,25 +43,6 @@
 
     /*-- activités --*/
 
-    .card_column
-    {
-        flex: none;
-        width: 90%;
-        height: 570px;
-        margin: 5%;
-        background-color: white;
-        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
-        border-radius: 20px;
-        overflow: hidden;
-    }
-
-    .card_column_image
-    {
-        height: 510px;
-        position: relative;
-        overflow: hidden;
-    }
-
     .card_column_image img
     {
         min-height: 100%;
@@ -70,32 +51,6 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-
-    .card_column_body
-    {
-        text-align:left; 
-        padding: 0px 20px;
-        box-sizing: border-box; 
-    }
-
-    .card_row1
-    {
-        flex: none;
-        width: 90%;
-        height: 320px;
-        margin: 5%;
-        background-color: white;
-        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
-        border-radius: 20px;
-        overflow: hidden;
-    }
-
-    .card_row_image1
-    {
-        height: 260px;
-        position: relative;
-        overflow: hidden;
     }
 
     .card_row_image1 img
@@ -108,33 +63,6 @@
         transform: translate(-50%, -50%);
     }
 
-    .card_row_body1
-    {
-        height: 50px;
-        text-align:left; 
-        padding: 0px 20px;
-        box-sizing: border-box;
-    }
-
-    .card_row2
-    {
-        flex: none;
-        width: 90%;
-        height: 190px;
-        margin: 5%;
-        background-color: white;
-        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
-        border-radius: 20px;
-        overflow: hidden;
-    }
-
-    .card_row_image2
-    {
-        height: 130px;
-        position: relative;
-        overflow: hidden;
-    }
-
     .card_row_image2 img
     {
         min-height: 150%;
@@ -143,32 +71,6 @@
         top: 75%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
-
-    .card_row_body2
-    {
-        text-align:left; 
-        padding: 0px 20px;
-        box-sizing: border-box;
-    }
-
-    .card_row3
-    {
-        flex: none;
-        width: 90%;
-        height: 250px;
-        margin: 5%;
-        background-color: white;
-        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
-        border-radius: 20px;
-        overflow: hidden;
-    }
-
-    .card_row_image3
-    {
-        height: 190px;
-        position: relative;
-        overflow: hidden;
     }
 
     .card_row_image3 img
@@ -181,32 +83,6 @@
         transform: translate(-50%, -50%);
     }
 
-    .card_row_body3
-    {
-        text-align:left; 
-        padding: 0px 20px;
-        box-sizing: border-box;
-    }
-
-    .card_row4
-    {
-        flex: none;
-        width: 90%;
-        height: 260px;
-        margin: 5%;
-        background-color: white;
-        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.14);
-        border-radius: 20px;
-        overflow: hidden;
-    }
-
-    .card_row_image4
-    {
-        height: 200px;
-        position: relative;
-        overflow: hidden;
-    }
-
     .card_row_image4 img
     {
         min-height: 120%;
@@ -217,12 +93,6 @@
         transform: translate(-50%, -50%);
     }
 
-    .card_row_body4
-    {
-        text-align:left; 
-        padding: 0px 20px;
-        box-sizing: border-box;
-    }
 
     
 }
