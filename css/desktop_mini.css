@@ -41,6 +41,17 @@
         font-size: 12px;
     }
 
+    .card_text_les_plus
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 60%;
+        text-align:left; 
+        padding: 0px 5px;
+        box-sizing: border-box;
+    }
+
     /*-- activités --*/
 
     .card_column_image img
