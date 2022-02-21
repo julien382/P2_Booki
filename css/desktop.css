@@ -536,7 +536,7 @@ input::placeholder
 
 .card_column_image img
 {
-    width: 235%;
+    min-height: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
     top: 50%;
@@ -572,6 +572,7 @@ input::placeholder
 
 .card_row_image1 img
 {
+    min-height: 120%;
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
@@ -609,6 +610,7 @@ input::placeholder
 
 .card_row_image2 img
 {
+    min-height: 150%;
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
@@ -645,6 +647,7 @@ input::placeholder
 
 .card_row_image3 img
 {
+    min-height: 110%;
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
@@ -681,6 +684,7 @@ input::placeholder
 
 .card_row_image4 img
 {
+    min-height: 120%;
     width: 100%;
     /* Méthode de centrage en fonction de la taille de l'image */
     position: absolute;
