@@ -86,6 +86,11 @@
         margin: 0;
         width: 100%;
     }
+
+    .nav_demi
+    {
+        width: 100%;
+    }
     
     .nav_heber
     {
@@ -102,7 +107,7 @@
         border-top: none;
         border-bottom: 3px solid #7a7a7a42;
         padding-bottom: 15px;
-        width: 50%;
+        width: 100%;
     }
 
     .nav_acti
@@ -120,7 +125,7 @@
         border-top: none;
         border-bottom: 3px solid #7a7a7a42;
         padding-bottom: 15px;
-        width: 50%;
+        width: 100%;
     }
     
     .nav_heber:hover
